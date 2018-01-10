@@ -4,7 +4,8 @@ import Books from "./pages/Books";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
-
+// must have exaclty one single element
+//router is doing if else statements
 const App = () =>
   <Router>
     <div>
